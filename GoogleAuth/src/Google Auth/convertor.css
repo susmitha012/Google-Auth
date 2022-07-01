@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+
+
+.App {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
+
+}
+.heading {
+  font-family: "Pacifico", cursive;
+  font-size: 35px;
+}
+.container {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+input {
+  padding-left: 5px;
+  font-size: 20px;
+  height: 36px;
+  background-color: #FFF;
+  color: #000;
+  border:1px solid #acaaaa
+}
+
+input:hover {
+border:1px solid green;
+}
+
+input:focus {
+border:2px solid green !important;
+}
+
+input:focus-visible{
+  border:2px solid green !important;
+  }
+
+.middle,
+.right {
+  width: 120px;
+}
+.switch {
+  padding: 5px;
+  margin-top: 25px;
+  background-color: rgb(226, 252, 184);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.result {
+  box-sizing: border-box;
+  width: 800px;
+  padding-left: 30px;
+}
+button {
+  width: 100px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 20px;
+  border: 2px solid forestgreen;
+  background-color: rgb(226, 252, 184);
+  cursor: pointer;
+}
+p,
+h3,
+button,
+.switch {
+  color: forestgreen;
+}
+p {
+  font-size: 30px;
+}
+
+.heading h1{
+  margin: 25px 0 0 !important;
+  font-size: 38px;
+}
+.result{
+  margin-top: 25px;
+}
